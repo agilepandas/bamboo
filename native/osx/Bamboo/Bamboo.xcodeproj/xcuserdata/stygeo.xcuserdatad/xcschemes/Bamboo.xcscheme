@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F5D92F2141AEF420049B2D0"
-               BuildableName = "Sprock.app"
-               BlueprintName = "Sprock"
-               ReferencedContainer = "container:Sprock.xcodeproj">
+               BlueprintIdentifier = "4F5D9320141BB6AB0049B2D0"
+               BuildableName = "Bamboo.app"
+               BlueprintName = "Bamboo"
+               ReferencedContainer = "container:Bamboo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,10 +38,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F5D92F2141AEF420049B2D0"
-            BuildableName = "Sprock.app"
-            BlueprintName = "Sprock"
-            ReferencedContainer = "container:Sprock.xcodeproj">
+            BlueprintIdentifier = "4F5D9320141BB6AB0049B2D0"
+            BuildableName = "Bamboo.app"
+            BlueprintName = "Bamboo"
+            ReferencedContainer = "container:Bamboo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F5D92F2141AEF420049B2D0"
-            BuildableName = "Sprock.app"
-            BlueprintName = "Sprock"
-            ReferencedContainer = "container:Sprock.xcodeproj">
+            BlueprintIdentifier = "4F5D9320141BB6AB0049B2D0"
+            BuildableName = "Bamboo.app"
+            BlueprintName = "Bamboo"
+            ReferencedContainer = "container:Bamboo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

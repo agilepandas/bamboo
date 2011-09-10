@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Sprock.xcscheme</key>
+		<key>Bamboo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4F5D92F2141AEF420049B2D0</key>
+		<key>4F5D9320141BB6AB0049B2D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

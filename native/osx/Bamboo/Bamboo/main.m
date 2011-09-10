@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Sprock
+//  Bamboo
 //
 //  Created by Jeffrey Wilcke on 9/10/11.
 //  Copyright 2011 AP. All rights reserved.

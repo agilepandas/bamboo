@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Sprock.xcodeproj">
+      location = "self:Bamboo.xcodeproj">
    </FileRef>
 </Workspace>

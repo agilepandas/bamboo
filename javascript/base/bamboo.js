@@ -138,21 +138,21 @@ $(function() {
     return Editor;
   })();
 
-  Bamboo = (function() {
-    function Bamboo() {
+  Sprock = (function() {
+    function Sprock() {
       this.version = 0.1;
       this.view_ports = {};
 
       this.add_editor('editor'); // Add editor for testing.
     }
 
-    Bamboo.prototype.add_editor = function(element, width, height) {
+    Sprock.prototype.add_editor = function(element, width, height) {
       var editor = new Editor(element);
       this.view_ports[element] = editor;
     };
 
-    return Bamboo;
+    return Sprock;
   })();
 
-  var bamboo = new Bamboo();
+  var sprock = new Sprock();
 });
