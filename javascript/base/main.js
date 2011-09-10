@@ -58,7 +58,6 @@ $(function() {
       this.UndoManager  = require("ace/undomanager").UndoManager;
 
       this.editor = ace.edit(element_name);
-      this.open_file('/Users/stygeo/development/sprock/javascript/base/main.js');
 
       // Temp
       this.editor.setTheme(this.themes.twilight);
@@ -72,6 +71,18 @@ $(function() {
         },
         exec: __bind(function(editor) {
           this.save_file();
+        }, this)
+      });
+
+      this.canon.addCommand({
+        name: 'open',
+        bindKey: {
+          win: "Ctrl-O",
+          mac: "Command-O",
+          sender: "editor"
+        },
+        exec: __bind(function(editor) {
+          this.open_file(prompt("Open file"), "");
         }, this)
       });
     }
@@ -145,6 +156,5 @@ $(function() {
     return Sprock;
   })();
 
-  new Sprock();
-
+  var sprock = new Sprock();
 });
