@@ -1,4 +1,5 @@
 $(function() {
+  // Bind call back function for getting the correct context.
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
   File = (function() {
@@ -8,12 +9,9 @@ $(function() {
       this.content = null;
 
       if(this.path) {
-        this.net.get('/load_file?path='+path, function(p_content) {
-          // This is 'window'
-          this.m_content = p_content;
-        });
-
-        this.content = window.m_content;
+        this.net.get('/load_file?path='+path, __bind(function(content) {
+          this.content = content
+        }, this));
       }
     }
 
