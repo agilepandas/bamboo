@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5D92F8141AEF420049B2D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5D92F7141AEF420049B2D0 /* Cocoa.framework */; };
+		4F5D9302141AEF420049B2D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F5D9300141AEF420049B2D0 /* InfoPlist.strings */; };
+		4F5D9304141AEF420049B2D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D9303141AEF420049B2D0 /* main.m */; };
+		4F5D9308141AEF420049B2D0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5D9306141AEF420049B2D0 /* Credits.rtf */; };
+		4F5D930B141AEF420049B2D0 /* SprockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D930A141AEF420049B2D0 /* SprockAppDelegate.m */; };
+		4F5D930E141AEF420049B2D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5D930C141AEF420049B2D0 /* MainMenu.xib */; };
+		4F5D9315141AEF650049B2D0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5D9314141AEF650049B2D0 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5D92F3141AEF420049B2D0 /* Sprock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5D92F7141AEF420049B2D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F5D92FA141AEF420049B2D0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4F5D92FB141AEF420049B2D0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4F5D92FC141AEF420049B2D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F5D92FF141AEF420049B2D0 /* Sprock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sprock-Info.plist"; sourceTree = "<group>"; };
+		4F5D9301141AEF420049B2D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F5D9303141AEF420049B2D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5D9305141AEF420049B2D0 /* Sprock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sprock-Prefix.pch"; sourceTree = "<group>"; };
+		4F5D9307141AEF420049B2D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4F5D9309141AEF420049B2D0 /* SprockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SprockAppDelegate.h; sourceTree = "<group>"; };
+		4F5D930A141AEF420049B2D0 /* SprockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SprockAppDelegate.m; sourceTree = "<group>"; };
+		4F5D930D141AEF420049B2D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F5D9314141AEF650049B2D0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5D92F0141AEF420049B2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5D9315141AEF650049B2D0 /* WebKit.framework in Frameworks */,
+				4F5D92F8141AEF420049B2D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5D92E8141AEF420049B2D0 = {
+			isa = PBXGroup;
+			children = (
+				4F5D9314141AEF650049B2D0 /* WebKit.framework */,
+				4F5D92FD141AEF420049B2D0 /* Sprock */,
+				4F5D92F6141AEF420049B2D0 /* Frameworks */,
+				4F5D92F4141AEF420049B2D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5D92F4141AEF420049B2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D92F3141AEF420049B2D0 /* Sprock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5D92F6141AEF420049B2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D92F7141AEF420049B2D0 /* Cocoa.framework */,
+				4F5D92F9141AEF420049B2D0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F5D92F9141AEF420049B2D0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D92FA141AEF420049B2D0 /* AppKit.framework */,
+				4F5D92FB141AEF420049B2D0 /* CoreData.framework */,
+				4F5D92FC141AEF420049B2D0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4F5D92FD141AEF420049B2D0 /* Sprock */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D9309141AEF420049B2D0 /* SprockAppDelegate.h */,
+				4F5D930A141AEF420049B2D0 /* SprockAppDelegate.m */,
+				4F5D930C141AEF420049B2D0 /* MainMenu.xib */,
+				4F5D92FE141AEF420049B2D0 /* Supporting Files */,
+			);
+			path = Sprock;
+			sourceTree = "<group>";
+		};
+		4F5D92FE141AEF420049B2D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D92FF141AEF420049B2D0 /* Sprock-Info.plist */,
+				4F5D9300141AEF420049B2D0 /* InfoPlist.strings */,
+				4F5D9303141AEF420049B2D0 /* main.m */,
+				4F5D9305141AEF420049B2D0 /* Sprock-Prefix.pch */,
+				4F5D9306141AEF420049B2D0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5D92F2141AEF420049B2D0 /* Sprock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5D9311141AEF420049B2D0 /* Build configuration list for PBXNativeTarget "Sprock" */;
+			buildPhases = (
+				4F5D92EF141AEF420049B2D0 /* Sources */,
+				4F5D92F0141AEF420049B2D0 /* Frameworks */,
+				4F5D92F1141AEF420049B2D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sprock;
+			productName = Sprock;
+			productReference = 4F5D92F3141AEF420049B2D0 /* Sprock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5D92EA141AEF420049B2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AP;
+			};
+			buildConfigurationList = 4F5D92ED141AEF420049B2D0 /* Build configuration list for PBXProject "Sprock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F5D92E8141AEF420049B2D0;
+			productRefGroup = 4F5D92F4141AEF420049B2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5D92F2141AEF420049B2D0 /* Sprock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5D92F1141AEF420049B2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5D9302141AEF420049B2D0 /* InfoPlist.strings in Resources */,
+				4F5D9308141AEF420049B2D0 /* Credits.rtf in Resources */,
+				4F5D930E141AEF420049B2D0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5D92EF141AEF420049B2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5D9304141AEF420049B2D0 /* main.m in Sources */,
+				4F5D930B141AEF420049B2D0 /* SprockAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5D9300141AEF420049B2D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5D9301141AEF420049B2D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F5D9306141AEF420049B2D0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5D9307141AEF420049B2D0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4F5D930C141AEF420049B2D0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5D930D141AEF420049B2D0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5D930F141AEF420049B2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F5D9310141AEF420049B2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F5D9312141AEF420049B2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprock/Sprock-Prefix.pch";
+				INFOPLIST_FILE = "Sprock/Sprock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F5D9313141AEF420049B2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprock/Sprock-Prefix.pch";
+				INFOPLIST_FILE = "Sprock/Sprock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5D92ED141AEF420049B2D0 /* Build configuration list for PBXProject "Sprock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5D930F141AEF420049B2D0 /* Debug */,
+				4F5D9310141AEF420049B2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5D9311141AEF420049B2D0 /* Build configuration list for PBXNativeTarget "Sprock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5D9312141AEF420049B2D0 /* Debug */,
+				4F5D9313141AEF420049B2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5D92EA141AEF420049B2D0 /* Project object */;
+}

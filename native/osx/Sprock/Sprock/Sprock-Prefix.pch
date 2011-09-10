@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Sprock' target in the 'Sprock' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
