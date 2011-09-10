@@ -1,4 +1,4 @@
-define("sprock/syntax", ['require', 'exports', 'module'], function(require, exports, module) {
+define("bamboo/syntax", ['require', 'exports', 'module'], function(require, exports, module) {
   function Syntax() {
     this.CCPPMode       = new (require("ace/mode/c_cpp").Mode);
     this.ClojureMode    = new (require("ace/mode/clojure").Mode);
@@ -26,7 +26,7 @@ define("sprock/syntax", ['require', 'exports', 'module'], function(require, expo
   exports.Syntax = new Syntax;
 });
 
-define("sprock/themes", ['require', 'exports', 'module'], function(require, exports, module) {
+define("bamboo/themes", ['require', 'exports', 'module'], function(require, exports, module) {
   function Themes() {
     var themes = {
       twilight: 'ace/theme/twilight'

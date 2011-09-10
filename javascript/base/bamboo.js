@@ -1,16 +1,20 @@
 $(function() {
   // Bind call back function for getting the correct context.
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+  var events = new (require('bamboo/base/events').Events);
 
   File = (function() {
     function File(path) {
       this.path = path;
-      this.net  = require("sprock/net");
+      this.net  = require("bamboo/net");
       this.content = null;
 
       if(this.path) {
         this.net.get('/load_file?path='+path, __bind(function(content) {
+          console.log(content);
           this.content = content
+          events.fire('file_loaded', this);
+
         }, this));
       }
     }
@@ -39,9 +43,9 @@ $(function() {
     // Constructor
     function Editor(element_name) {
       // All available modes
-      this.modes = require('sprock/syntax').Syntax;
+      this.modes = require('bamboo/syntax').Syntax;
       // All available themes
-      this.themes = require('sprock/themes').Themes;
+      this.themes = require('bamboo/themes').Themes;
       // Canon event handler
       this.canon = require('pilot/canon');
 

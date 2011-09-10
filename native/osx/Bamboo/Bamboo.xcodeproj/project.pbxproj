@@ -49,7 +49,6 @@
 		4F5D9316141BB6AB0049B2D0 = {
 			isa = PBXGroup;
 			children = (
-				4F5D9342141BB6B60049B2D0 /* WebKit.framework */,
 				4F5D932B141BB6AB0049B2D0 /* Bamboo */,
 				4F5D9324141BB6AB0049B2D0 /* Frameworks */,
 				4F5D9322141BB6AB0049B2D0 /* Products */,
@@ -76,6 +75,7 @@
 		4F5D9327141BB6AB0049B2D0 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F5D9342141BB6B60049B2D0 /* WebKit.framework */,
 				4F5D9328141BB6AB0049B2D0 /* AppKit.framework */,
 				4F5D9329141BB6AB0049B2D0 /* CoreData.framework */,
 				4F5D932A141BB6AB0049B2D0 /* Foundation.framework */,

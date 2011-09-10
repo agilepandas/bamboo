@@ -5,7 +5,7 @@
  * Available via the MIT or new BSD license.
  * see: http://github.com/jrburke/requirejs for details
 */
-define("sprock/net", ["require", "exports", "module"], function(require, exports, module) {
+define("bamboo/net", ["require", "exports", "module"], function(require, exports, module) {
 
   exports.get = function (url, callback) {
     var xhr = exports.createXhr();
