@@ -1,7 +1,8 @@
 $(function() {
   // Bind call back function for getting the correct context.
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
-  var events = new (require('bamboo/base/events').Events);
+  // Initialize events handler.
+  var events = new (require('bamboo/base/events').Events)();
 
   File = (function() {
     function File(path) {
@@ -12,7 +13,7 @@ $(function() {
       if(this.path) {
         this.net.get('/load_file?path='+path, __bind(function(content) {
           console.log(content);
-          this.content = content
+          this.content = content;
           events.fire('file_loaded', this);
 
         }, this));
@@ -28,7 +29,7 @@ $(function() {
     File.prototype.save = function() {
       console.log("Fake save");
       console.log(this.content);
-    }
+    };
 
     // Return the file type
     File.prototype.file_type = function() {
@@ -142,21 +143,21 @@ $(function() {
     return Editor;
   })();
 
-  Sprock = (function() {
-    function Sprock() {
+  Bamboo = (function() {
+    function Bamboo() {
       this.version = 0.1;
       this.view_ports = {};
 
       this.add_editor('editor'); // Add editor for testing.
     }
 
-    Sprock.prototype.add_editor = function(element, width, height) {
+    Bamboo.prototype.add_editor = function(element, width, height) {
       var editor = new Editor(element);
       this.view_ports[element] = editor;
     };
 
-    return Sprock;
+    return Bamboo;
   })();
 
-  var sprock = new Sprock();
+  var bamboo = new Bamboo();
 });
